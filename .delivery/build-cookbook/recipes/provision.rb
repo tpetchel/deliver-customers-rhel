@@ -3,8 +3,6 @@
 # Recipe:: default
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
-<<<<<<< HEAD
-=======
 include_recipe 'delivery-truck::provision'
 include_recipe 'chef-sugar::default'
 
@@ -67,4 +65,3 @@ machine "#{stage}-#{project}" do
   }
   add_machine_options node[project][stage]['aws']['config']['machine_options']
 end
->>>>>>> origin/ref-smoke-test-customers-app
